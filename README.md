@@ -8,13 +8,13 @@
 
 <ul>
   <li>
-      ```src/utils.py```  - файл функций подсчета метрик и цикла обучения и т.д.</li>
+    src/utils.py  - файл функций подсчета метрик и цикла обучения и т.д.</li>
   <li>
-    ```src/model.py``` - ахитектура модели EcgNet с squeeze and excitation блоками</li>
+    src/model.py - ахитектура модели EcgNet с squeeze and excitation блоками</li>
   <li>
-    ```train.ipynb``` - ноутбук с полным пайплайном обучения</li>
+    train.ipynb - ноутбук с полным пайплайном обучения</li>
   <li>
-    ```requirements.txt``` - зависимости необходимые для работы</li>
+    requirements.txt - зависимости необходимые для работы</li>
 </ul>
 
 ---
