@@ -12,6 +12,12 @@
   <li>
     src/model.py - ахитектура модели EcgNet с squeeze and excitation блоками</li>
   <li>
+    process/SMOTE.ipynb - реализация алгоритма SMOTE для ЭКГ сигналов</li>
+  <li>
+    process/process_ptbxl.ipynb - обработка оригинального датасета</li>
+  <li>
+    process/r_peaks_process.ipynb - расширение данных за счет смены представления, выделение QRS комплекса</li>
+  <li>
     train.ipynb - ноутбук с полным пайплайном обучения</li>
   <li>
     requirements.txt - зависимости необходимые для работы</li>
