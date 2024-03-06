@@ -36,7 +36,7 @@
 
 [![Smote](https://dataknowsall.com/hs-fs/hubfs/imbalanced.png?width=800&height=350&name=imbalanced.png)](https://dataknowsall.com/hs-fs/hubfs/imbalanced.png?width=800&height=350&name=imbalanced.png)
 
-[![smote ecg](https://i.ibb.co/72ZsqfT/image.png "smote ecg")](https://i.ibb.co/72ZsqfT/image.png "smote ecg")
+[![smote ecg](https://i.ibb.co/72ZsqfT/image.png)](https://i.ibb.co/72ZsqfT/image.png)
 
 ## 2. ECG Net with Squeeze-and-Excitation blocks
 [![ecg net](https://i.ibb.co/dD3v41F/ecg.png "ecg net")](https://i.ibb.co/dD3v41F/ecg.png "ecg net")
