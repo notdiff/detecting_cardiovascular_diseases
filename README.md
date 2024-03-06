@@ -34,7 +34,7 @@
 #### 1. SMOTE - Synthetic Minority Over-sampling Technique
 Это алгоритм генерации синтетических примеров, которые были бы похожи на имеющиеся в малочисленном классе, но при этом не дублировали их. Для создания новой записи используется среднее значение между записями похожими друг на друга
 
-[![Smote](https://www.dataknowsall.com/images/posts/imbalanced.png "Smote")](https://www.dataknowsall.com/images/posts/imbalanced.png "Smote")
+[![Smote](https://dataknowsall.com/hs-fs/hubfs/imbalanced.png?width=800&height=350&name=imbalanced.png)](https://dataknowsall.com/hs-fs/hubfs/imbalanced.png?width=800&height=350&name=imbalanced.png)
 
 [![smote ecg](https://i.ibb.co/72ZsqfT/image.png "smote ecg")](https://i.ibb.co/72ZsqfT/image.png "smote ecg")
 
