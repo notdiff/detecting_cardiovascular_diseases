@@ -8,7 +8,7 @@
 
 <ul>
   <li>
-    [```src/utils.py```]([https://github.com/XXXM1R0XXX/final2/tree/b2c27b43e21dbc5ec4dfeceb6c71d734852672b9/process](https://github.com/notdiff/detecting_cardiovascular_diseases/blob/affda0c023356fe89cb821b88f65bcd060583893/src/utils.py) "перейти в папку")  - файл функций подсчета метрик и цикла обучения и т.д.</li>
+    [```src/utils.py```]((https://github.com/notdiff/detecting_cardiovascular_diseases/blob/affda0c023356fe89cb821b88f65bcd060583893/src/utils.py) "перейти к файлу")  - файл функций подсчета метрик и цикла обучения и т.д.</li>
   <li>
     src/model.py - ахитектура модели EcgNet с squeeze and excitation блоками</li>
   <li>
