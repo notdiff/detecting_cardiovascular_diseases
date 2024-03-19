@@ -6,24 +6,10 @@
 
 #### Файлы репозитория
 
-<ul>
-  <li>
-    [```utils.py```](https://github.com/notdiff/detecting_cardiovascular_diseases/blob/affda0c023356fe89cb821b88f65bcd060583893/src/utils.py "перейти к файлу")  - файл функций подсчета метрик и цикла обучения и т.д.</li>
-  <li>
-    src/model.py - ахитектура модели EcgNet с squeeze and excitation блоками</li>
-  <li>
-    process/SMOTE.ipynb - реализация алгоритма SMOTE для ЭКГ сигналов</li>
-  <li>
-    process/process_ptbxl.ipynb - обработка оригинального датасета</li>
-  <li>
-    process/r_peaks_process.ipynb - расширение данных за счет смены представления, выделение QRS комплекса</li>
-  <li>
-    train.ipynb - ноутбук с полным пайплайном обучения</li>
-  <li>
-    inference_example.ipynb - ноутбук с примером инференса системы обученных моделей</li>
-  <li>
-    requirements.txt - зависимости необходимые для работы</li>
-</ul>
+* [```process```](https://github.com/XXXM1R0XXX/final2/tree/b2c27b43e21dbc5ec4dfeceb6c71d734852672b9/process "перейти в папку") - папка с кодом препроцессинга данных
+* [```web```](https://github.com/XXXM1R0XXX/final2/tree/dcd84f38b0393c7fe9dec1a7e1064d3fa53e2e5a/web "перейти в папку") - папка с кодом веб-сайта
+* [```inference_example.ipynb```](https://github.com/XXXM1R0XXX/final2/blob/dcd84f38b0393c7fe9dec1a7e1064d3fa53e2e5a/inference_example.ipynb "перейти в файл") - пример инференса модели
+* [```training_example.ipynb```](https://github.com/XXXM1R0XXX/final2/blob/dcd84f38b0393c7fe9dec1a7e1064d3fa53e2e5a/training_example.ipynb "перейти в файл") - пример обучения модели
 
 ---
 
