@@ -6,10 +6,13 @@
 
 #### Файлы репозитория
 
-* [```process```](https://github.com/XXXM1R0XXX/final2/tree/b2c27b43e21dbc5ec4dfeceb6c71d734852672b9/process "перейти в папку") - папка с кодом препроцессинга данных
-* [```web```](https://github.com/XXXM1R0XXX/final2/tree/dcd84f38b0393c7fe9dec1a7e1064d3fa53e2e5a/web "перейти в папку") - папка с кодом веб-сайта
-* [```inference_example.ipynb```](https://github.com/XXXM1R0XXX/final2/blob/dcd84f38b0393c7fe9dec1a7e1064d3fa53e2e5a/inference_example.ipynb "перейти в файл") - пример инференса модели
-* [```training_example.ipynb```](https://github.com/XXXM1R0XXX/final2/blob/dcd84f38b0393c7fe9dec1a7e1064d3fa53e2e5a/training_example.ipynb "перейти в файл") - пример обучения модели
+* [```scr/utils.py```](https://github.com/notdiff/detecting_cardiovascular_diseases/blob/affda0c023356fe89cb821b88f65bcd060583893/src/utils.py "перейти в файл") - файл функций подсчета метрик и цикла обучения и т.д.
+* [```src/ecg_net.py```](https://github.com/notdiff/detecting_cardiovascular_diseases/blob/d17a19be4365baef4e2a907001a305b1003bd5a0/src/ecg_net.py "перейти в файл") - ахитектура модели EcgNet с squeeze and excitation блоками
+* [```process/SMOTE.ipynb```](https://github.com/notdiff/detecting_cardiovascular_diseases/blob/d17a19be4365baef4e2a907001a305b1003bd5a0/process/SMOTE.ipynb "перейти в файл") - реализация алгоритма SMOTE для ЭКГ сигналов
+* [```process/process_ptbxl.ipynb```](https://github.com/notdiff/detecting_cardiovascular_diseases/blob/d17a19be4365baef4e2a907001a305b1003bd5a0/process/process_ptbxl.ipynb "перейти в файл") - обработка оригинального датасета
+* [```process/r_peaks_process.ipynb```](https://github.com/notdiff/detecting_cardiovascular_diseases/blob/d17a19be4365baef4e2a907001a305b1003bd5a0/process/r_peaks_process.ipynb "перейти в файл") - расширение данных за счет смены представления, выделение QRS комплекса
+* [```inference_example.ipynb```](https://github.com/notdiff/detecting_cardiovascular_diseases/blob/d17a19be4365baef4e2a907001a305b1003bd5a0/inference_example.ipynb "перейти в файл") - пример инференса модели
+* [```train.ipynb```](https://github.com/notdiff/detecting_cardiovascular_diseases/blob/d17a19be4365baef4e2a907001a305b1003bd5a0/train.ipynb "перейти в файл") - ноутбук с полным пайплайном обучения
 
 ---
 
