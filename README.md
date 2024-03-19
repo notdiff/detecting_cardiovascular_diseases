@@ -16,9 +16,10 @@
 
 ---
 
-##### Сторонние файлы
+#### Сторонние файлы
 
-Собранный и обработанный датасет доступен по <a href="https://drive.google.com/file/d/1Rt0I7Svrx77tFMCsNubEQ-cDY8hD-iCk/view?usp=drive_linkk">ссылке<a/>
+Собранный и обработанный датасет доступен по <a href="https://drive.google.com/file/d/1Rt0I7Svrx77tFMCsNubEQ-cDY8hD-iCk/view?usp=drive_linkk">ссылке<a/> (размер около 10ГБ)
+Архив моделей можно получить <a href="http://site.m1r0.webtm.ru:8080/s/ex6dKfgaEqLRJpg/download/models.zip">здесь<a/> (размер около 1ГБ)
 
 ---
 ## Методы
