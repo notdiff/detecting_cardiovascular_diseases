@@ -174,7 +174,7 @@ class ECGNet(nn.Module):
         ("ln1", nn.Linear(1152, 288)),
         ("dp", nn.Dropout(p=0.2)),
         ("act", nn.ReLU()),
-        ("ln2", nn.Linear(288, 7))
+        ("ln2", nn.Linear(288, 2))
     ]))
 
   def forward(self, x):
