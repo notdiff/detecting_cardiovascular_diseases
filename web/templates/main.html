@@ -1,0 +1,135 @@
+{% extends "sample.html" %}
+{% set ns = namespace(account_id=0) %}
+{% set ns = namespace(index=0) %}
+{#{% set ns = namespace(sz=tasks|length > 0) %}#}
+{% block title %}Личный кабинет{% endblock %}
+{% block style %}
+    <link href="/static/sidebars.css" rel="stylesheet">
+    <link href="/static/headers.css" rel="stylesheet">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sidebars/">
+{% endblock %}
+{% block body %}
+
+    <main class="d-flex flex-nowrap ">
+
+
+        <div class="d-flex flex-column align-items-stretch flex-shrink-0 bg-body-tertiary" style="width: 380px;">
+            <a href="/"
+               class="d-flex align-items-center flex-shrink-0 p-3 link-body-emphasis text-decoration-none border-bottom">
+                <svg class="bi pe-none me-2" width="30" height="24">
+                    <use xlink:href="#bootstrap"/>
+                </svg>
+                {% block name_list %}
+                    <span class="fs-5 fw-semibold">Пациенты</span>
+                {% endblock %}
+            </a>
+            <div class="list-group list-group-flush border-bottom scrollarea">
+                {#                {% if ns.sz %}#}
+                {% block condition %}
+
+                    {% for task in tasks %}
+
+                        {% if task.id==id %}
+                            {% set  ns.account_id=task.account_id %}
+                            {% set  ns.index=tasks.index(task) %}
+                            <a href="{{ task.id }}" class="list-group-item list-group-item-action py-3 lh-sm"
+                               aria-current="true" style="background: #0a53be">
+                        {% else %}
+                            <a href="{{ task.id }}" class="list-group-item list-group-item-action py-3 lh-sm">
+                        {% endif %}
+
+                    <div class="d-flex w-100 align-items-center justify-content-between">
+                        <strong class="mb-1">{{ task.name }}</strong>
+                        <small>{{ task.date }}</small>
+                    </div>
+                    <div class="col-10 mb-1 small">{{ task.description }}</div>
+                    </a>
+
+                    {% endfor %}
+
+                {% endblock %}
+                {#                {% endif %}#}
+            </div>
+
+        </div>
+
+        <div class="container">
+            <div class="container">
+                <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+                    <a href="/"
+                       class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                        <svg class="bi me-2" width="40" height="32">
+                            <use xlink:href="#bootstrap"/>
+                        </svg>
+                        <span class="fs-4">Cardio Screen</span>
+                    </a>
+
+                    <ul class="nav nav-pills">
+                        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Основная</a>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">Преимущества</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">О нас</a></li>
+                    </ul>
+                </header>
+            </div>
+            {#            {% if ns.sz %}#}
+            {% block body_2 %}
+                <img src="../static/profiles/{{ ns.account_id }}/{{ id }}/{{ id }}.png"
+                     class="rounded mx-auto d-block"
+                     alt="test"
+                     style="width: 100%">
+                <div class="d-flex gap-2 justify-content-center py-5">
+
+                    <h3>
+                        {% for key,value in tasks[ns.index].data.items() %}
+                            <span class="badge text-bg-primary rounded-pill">{{ key }} : {{ value }}%</span>
+                        {% endfor %}
+
+                        {#                        <span class="badge text-bg-secondary rounded-pill">Secondary</span>#}
+                        {#                        <span class="badge text-bg-success rounded-pill">Success</span>#}
+                        {#                        <span class="badge text-bg-danger rounded-pill">Danger</span>#}
+                        {#                        <span class="badge text-bg-warning rounded-pill">Warning</span>#}
+                        {#                        <span class="badge text-bg-info rounded-pill">Info</span>#}
+                        {#                        <span class="badge text-bg-light rounded-pill">Light</span>#}
+                        {#                        <span class="badge text-bg-dark rounded-pill">Dark</span>#}
+                    </h3>
+                </div>
+                <form method="POST">
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Заключение</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                  name="conclusion"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Сохранить</button>
+                </form>
+
+            {% endblock %}
+            {#            {% endif %}#}
+            <div class="container">
+                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                    <p class="col-md-4 mb-0 text-body-secondary">© 2024 Company, Inc</p>
+
+                    <a href="/"
+                       class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+                       previewlistener="true">
+                        <svg class="bi me-2" width="40" height="32">
+                            <use xlink:href="#bootstrap"></use>
+                        </svg>
+                    </a>
+
+                    <ul class="nav col-md-4 justify-content-end">
+                        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Основная</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Преимущества</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">О нас</a></li>
+                    </ul>
+                </footer>
+            </div>
+        </div>
+    </main>
+
+{% endblock %}
+{% block script %}
+    <script src="/static/sidebars.js"></script>
+{% endblock %}
