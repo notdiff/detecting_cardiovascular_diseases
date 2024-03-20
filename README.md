@@ -13,6 +13,7 @@
 * [```process/r_peaks_process.ipynb```](https://github.com/notdiff/detecting_cardiovascular_diseases/blob/d17a19be4365baef4e2a907001a305b1003bd5a0/process/r_peaks_process.ipynb "перейти в файл") - расширение данных за счет смены представления, выделение QRS комплекса
 * [```inference_example.ipynb```](https://github.com/notdiff/detecting_cardiovascular_diseases/blob/d17a19be4365baef4e2a907001a305b1003bd5a0/inference_example.ipynb "перейти в файл") - пример инференса модели
 * [```train.ipynb```](https://github.com/notdiff/detecting_cardiovascular_diseases/blob/d17a19be4365baef4e2a907001a305b1003bd5a0/train.ipynb "перейти в файл") - ноутбук с полным пайплайном обучения
+* [```web```](https://github.com/notdiff/detecting_cardiovascular_diseases/tree/8bc9c58fab05614232012dbb04ee1cc36f547fa3/web "перейти в папку") - web демо проекта (beta)
 
 ---
 
