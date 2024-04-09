@@ -1,6 +1,8 @@
+torch
+scipy.stats
+sklearn
 pandas==1.5.3
 numpy==1.23.5
-torch
 focal-loss-torch==0.1.2
 wandb==0.16.3
 tqdm==4.66.1
