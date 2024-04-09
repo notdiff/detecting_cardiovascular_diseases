@@ -12,7 +12,7 @@
 * [```process/process_ptbxl.ipynb```](https://github.com/notdiff/detecting_cardiovascular_diseases/blob/d17a19be4365baef4e2a907001a305b1003bd5a0/process/process_ptbxl.ipynb "перейти в файл") - обработка оригинального датасета
 * [```process/r_peaks_process.ipynb```](https://github.com/notdiff/detecting_cardiovascular_diseases/blob/d17a19be4365baef4e2a907001a305b1003bd5a0/process/r_peaks_process.ipynb "перейти в файл") - расширение данных за счет смены представления, выделение QRS комплекса
 * [```inference_example.ipynb```](https://github.com/notdiff/detecting_cardiovascular_diseases/blob/d17a19be4365baef4e2a907001a305b1003bd5a0/inference_example.ipynb "перейти в файл") - пример инференса модели
-* [```train.ipynb```](https://github.com/notdiff/detecting_cardiovascular_diseases/blob/d17a19be4365baef4e2a907001a305b1003bd5a0/train.ipynb "перейти в файл") - ноутбук с полным пайплайном обучения
+* [```train.ipynb```](https://github.com/notdiff/detecting_cardiovascular_diseases/blob/d17a19be4365baef4e2a907001a305b1003bd5a0/train.ipynb "перейти в файл") - ноутбук с полным пайплайном обучения моделей и примером создания системы на основе catboost
 * [```web```](https://github.com/notdiff/detecting_cardiovascular_diseases/tree/8bc9c58fab05614232012dbb04ee1cc36f547fa3/web "перейти в папку") - web демо проекта (beta)
 * [```requirements.txt```](https://github.com/notdiff/detecting_cardiovascular_diseases/blob/b4b18b6f28dbbb0ec07639dd8ca72a52e7126037/requirements.txt "перейти в файл") - файл зависимостей (только для тех.части проекта)
 * [```description.txt```](https://github.com/notdiff/detecting_cardiovascular_diseases/blob/2b506b46b601df565db6d24a8063546381086321/description.txt "перейти в файл") - описание всех представленных патололгий
