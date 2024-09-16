@@ -2,6 +2,7 @@
 
 Проект был разработан для всероссиского конкурса научных работ школьников "ЮНИОР". И является усовершенствованной версией решения [хакатона AI Challenge 2023](https://github.com/ALT-F4-Team/localization-of-myocardial-infarction)
 
+## [Видео-демо](https://github.com/notdiff/detecting_cardiovascular_diseases/blob/main/DEMO.mp4)
 ---
 
 #### Файлы репозитория
